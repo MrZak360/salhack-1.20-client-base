@@ -17,7 +17,6 @@ public class MixinMinecraftClient {
     @Inject(method = "tick", at = @At("HEAD"), cancellable = true)
     public void onTick(CallbackInfo ci){
         if (Wrapper.GetMC().player == null) return;
-
         SalHackMod.EVENT_BUS.post(new EventClientTick());
     }
 

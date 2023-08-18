@@ -17,6 +17,7 @@
     "MixinIngameHud",
     "MixinMinecraftClient",
     "MixinMouse",
-    "MixinRenderTickCounter"
+    "MixinRenderTickCounter",
+    "PlayerListHudMixin"
   ]
 }

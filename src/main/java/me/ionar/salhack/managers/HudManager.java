@@ -64,8 +64,8 @@ public class HudManager
 
          */
 
-        /// MUST be last in list
-        //Add(new SelectorMenuComponent());
+        // MUST be last in list
+        Add(new SelectorMenuComponent());
 
         CanSave = false;
 

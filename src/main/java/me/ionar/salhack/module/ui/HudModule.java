@@ -11,15 +11,8 @@ public final class HudModule extends Module
 {
     public static final Value<Integer> ExtraTab = new Value<Integer>("ExtraTab", new String[]
             { "ET" }, "Max playerslots to show in the tab list", 80, 80, 1000, 10);
-    public final Value<Boolean> CustomFOV = new Value<Boolean>("CustomFOV", new String[]
-            { "CustomFOV" }, "Enables the option below", false);
-    public final Value<Float> FOV = new Value<Float>("FOV", new String[]
-            { "FOV" }, "Override the clientside FOV", 90f, 0f, 170f, 10f);
-    public final Value<Boolean> NoHurtCam = new Value<Boolean>("NoHurtCam", new String[]
+    public static final Value<Boolean> NoHurtCam = new Value<Boolean>("NoHurtCam", new String[]
             { "NoHurtCam" }, "Disables hurt camera effect", true);
-    public final Value<Boolean> NoBob = new Value<Boolean>("NoBob", new String[]
-            { "NoBob" }, "Disables bobbing effect", true);
-    public final Value<Boolean> CustomFont = new Value<Boolean>("CustomFont", new String[] {"CF"}, "Displays the custom font", true);
 
     public HudModule()
     {
