@@ -18,7 +18,6 @@ public abstract class GameRendererMixin {
 
     @Inject(method = {"tiltViewWhenHurt"}, at = {@At("HEAD")}, cancellable = true)
     private void bobView(MatrixStack matrixStack, float f, CallbackInfo ci) {
-        if (HudModule.NoHurtCam.getValue()) ci.cancel();
     }
 
     @SuppressWarnings("SpellCheckingInspection")

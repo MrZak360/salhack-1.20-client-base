@@ -11,8 +11,6 @@ public final class HudModule extends Module
 {
     public static final Value<Integer> ExtraTab = new Value<Integer>("ExtraTab", new String[]
             { "ET" }, "Max playerslots to show in the tab list", 80, 80, 1000, 10);
-    public static final Value<Boolean> NoHurtCam = new Value<Boolean>("NoHurtCam", new String[]
-            { "NoHurtCam" }, "Disables hurt camera effect", true);
 
     public HudModule()
     {
